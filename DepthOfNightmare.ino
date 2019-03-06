@@ -1530,8 +1530,8 @@ arduboy.print(F(">Easy\n Hard"));
 //  StartNewGame();
 //  game=2;}
 TwoChoices(); 
-if(y=48){hard=0;StartNewGame();game=2;}
-if(y=55){hard=1;StartNewGame();game=2;}  
+if(y==48){hard=0;StartNewGame();game=2;}
+if(y==55){hard=1;StartNewGame();game=2;}  
   //if(arduboy.pressed(B_BUTTON)){game=4;}
 //arduboy.display();
 }//game==0
